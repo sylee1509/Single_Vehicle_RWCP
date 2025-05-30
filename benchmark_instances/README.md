@@ -1,6 +1,6 @@
 # File Format Description
 
-These files are ""benchmark instances"" for the **MCARPTIF-TP**. Some instances in the clustering directory (e.g., Act-IF-TP-b, Act-IF-TP-c, Cen-IF-TP-a, Cen-IF-TP-b, and Cen-IF-TP-c) are designed for multiple vehicles. Except for these, all files in this directory are for a single vehicle. 
+These files are **benchmark instances** for the **MCARPTIF-TP**. Some instances in the clustering directory (e.g., Act-IF-TP-b, Act-IF-TP-c, Cen-IF-TP-a, Cen-IF-TP-b, and Cen-IF-TP-c) are designed for multiple vehicles. Except for these, all files in this directory are for a single vehicle. 
 The structure is as follows:
 
 ---
@@ -52,7 +52,7 @@ These lines act as section headers and are followed by the corresponding list of
 
 #### Format of Each Arc/Edge
 
-Each arc or edge is defined in the following order (tab-delimited):
+Each arc or edge is defined in the following order:
 
 | Field Name               | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
