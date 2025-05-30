@@ -1,6 +1,6 @@
 # File Format Description
 
-These files are ""benchmark instances"" for the MCARPTIF-TP. Some instances in the clustering directory (e.g., Act-IF-TP-b, Act-IF-TP-c, Cen-IF-TP-a, Cen-IF-TP-b, and Cen-IF-TP-c) are designed for multiple vehicles. Except for these, all files in this directory are for a single vehicle. 
+These files are ""benchmark instances"" for the **MCARPTIF-TP**. Some instances in the clustering directory (e.g., Act-IF-TP-b, Act-IF-TP-c, Cen-IF-TP-a, Cen-IF-TP-b, and Cen-IF-TP-c) are designed for multiple vehicles. Except for these, all files in this directory are for a single vehicle. 
 The structure is as follows:
 
 ---
@@ -71,7 +71,7 @@ Each arc or edge is defined in the following order (tab-delimited):
 
 ## 📝 Notes
 
-- All values are tab-delimited.
+- All values are **tab-delimited**.
 - Node IDs are integers.
 - Travel costs, service costs, and demand are usually non-negative numbers.
 - Non-required edges/arcs have zero service costs
