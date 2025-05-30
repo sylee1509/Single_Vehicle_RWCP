@@ -27,10 +27,10 @@ Typical keywords include:
 | `REQ_ARCS`     | Number of required arcs                                                  |
 | `NOREQ_ARCS`   | Number of non-required arcs                                               |
 | `CAPACITY`     | Capacity of each vehicle (first is volume, second is weight              |
-| `DUMPING_COST` | Dumping cost of intermediate facilities: 'IF 1, IF 2, IF 3, ...'          |
+| `DUMPING_COST` | Dumping cost of intermediate facilities: `IF 1, IF 2, IF 3, ...`          |
 | `MAX_DURATION` | Maximum working time for each vehicle                                    |
 | `DEPOT`        | Node ID of depot                                                         |
-| `DUMPING_SITES`| Node ID of intermediate facilities: 'IF 1, IF 2, IF 3, ...'               |
+| `DUMPING_SITES`| Node ID of intermediate facilities: `IF 1, IF 2, IF 3, ...`               |
 | `TURN_PENALTY` | Turn costs for each turn: 'straight, right-turn, left-turn, U-turn'|
 
 ---
@@ -62,7 +62,8 @@ Each arc or edge is defined in the following order (tab-delimited):
 | `travel cost`            | Cost for traversing the arc without service                                 |
 | `volume`                 | Volume of waste on this arc/edge                                            |
 | `weight`                 | Weight of waste on this arc/edge                                            |
-| `arc shape`              | Sequence of coordinates representing the shape of the arc, given as: `x1 y1,x2 y2,x3 y3, ...` (coordinates are comma-separated)       |
+| `arc shape`              | Sequence of coordinates representing the shape of the arc, given as: 
+`x1 y1,x2 y2,x3 y3, ...` (coordinates are comma-separated)       |
 | `arc shape for QGIS`     | Enhanced version for QGIS-based visualization using 'LINESTRING'            |
 
 
