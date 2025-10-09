@@ -25,17 +25,32 @@ There are two subfolders:
 
 ### 📁 experiment_results/
 
-This folder contains all result files generated from experiments, separated into two categories:
+This folder contains all result files generated from experiments, grouped into three main categories.
 
-- **[clustering/](experiment_results/clustering/)**: Contains results from clustering algorithms.
-- **[routing/](experiment_results/routing/)**: Contains results from routing algorithms.
+#### 📁 experiment_results/MCARPTIF-TP
+
+This directory includes the main experimental results for the 'MCARPTIF-TP'. It consists of two subfolders:
+
+- **[clustering/](experiment_results/MCARPTIF-TP/clustering/)**: Contains results from clustering algorithms.
+- **[routing/](experiment_results/MCARPTIF-TP/routing/)**: Contains results from routing algorithms.
 
 > **Note:**  
 > The format of result files is **different** for clustering and routing.  
 > For details about the result file format in each case, please refer to:
 >
-> - **[Clustering Results Format](experiment_results/clustering/README.md)**
-> - **[Routing Results Format](experiment_results/routing/README.md)**
+> - **[Clustering Results Format](experiment_results/MCARPTIF-TP/clustering/README.md)**
+> - **[Routing Results Format](experiment_results/MCARPTIF-TP/routing/README.md)**
+
+#### 📁 experiment_results/MCARPTIF
+
+This directory contains the experimental results for the 'MCARPTIF' instances, where the turn penalty is assumed to be zero.
+The experiments were conducted using the GPM algorithm, and the “Route Cost wo Turns” value in the result files represents the objective value of this solution.
+These results can be directly compared with those in the 'MCARPTIF-TP' directory.
+
+#### 📁 experiment_results/Sensitivity_Analysis
+
+This directory includes the results of sensitivity analyses conducted on the 'P1-IF-TP-4' instance,
+examining the effects of varying turn penalties and AOI (Arc Overlapping Index) tolerance parameters.
 
 ---
 
