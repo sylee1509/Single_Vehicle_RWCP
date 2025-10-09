@@ -57,8 +57,8 @@ examining the effects of varying turn penalties and AOI (Arc Overlapping Index) 
 ### 📄 Quick Navigation
 
 - [Benchmark Instances Format](benchmark_instances/README.md)
-- [Clustering Results Format](experiment_results/clustering/README.md)
-- [Routing Results Format](experiment_results/routing/README.md)
+- [Clustering Results Format](experiment_results/MCARPTIF-TP/clustering/README.md)
+- [Routing Results Format](experiment_results/MCARPTIF-TP/routing/README.md)
 
 ---
 
