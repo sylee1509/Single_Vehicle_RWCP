@@ -1,6 +1,6 @@
 # File Format Description
 
-These files are **benchmark instances** for the **MCARPTIF-TP**. Some instances in the clustering directory (e.g., Act-IF-TP-b, Act-IF-TP-c, Cen-IF-TP-a, Cen-IF-TP-b, and Cen-IF-TP-c) are designed for multiple vehicles. Except for these, all files in this directory are for a single vehicle. 
+These files are **benchmark instances** for the **MCARPTIF-TP**. Some instances in the clustering directory (e.g., Act-IF-TP-b, Act-IF-TP-c, Cen-IF-TP-a, Cen-IF-TP-b, Cen-IF-TP-c, P2-IF-TP-a, P2-IF-TP-b, P2-IF-TP-c, and P2-IF-TP-d) are designed for multiple vehicles. Except for these, all files in this directory are for a single vehicle. 
 The structure is as follows:
 
 ---
