@@ -15,8 +15,8 @@ This repository is organized to clearly separate **benchmark instances** from **
 This folder contains all the benchmark instance files used for experiments.  
 There are two subfolders:
 
-- **[clustering/](benchmark_instances/clustering/)**: Contains 26 clustering instance files.
-- **[routing/](benchmark_instances/routing/)**: Contains 75 routing instance files.
+- **[clustering/](benchmark_instances/clustering/)**: Contains 31 clustering instance files.
+- **[routing/](benchmark_instances/routing/)**: Contains 100 routing instance files.
 
 > All instance files in these subfolders follow the **same format**.  
 > Please refer to **[Benchmark Instances Format](benchmark_instances/README.md)** for a detailed description of the instance file format.
@@ -60,7 +60,18 @@ examining the effects of varying turn penalties and AOI (Arc Overlapping Index) 
 - [Clustering Results Format](experiment_results/MCARPTIF-TP/clustering/README.md)
 - [Routing Results Format](experiment_results/MCARPTIF-TP/routing/README.md)
 
----
 
 If you have any questions about the file formats or folder organization,  
 please see the relevant README linked above, or open an issue in this repository.
+
+
+---
+
+### ✉️ Code Availability
+
+The **source code and executable files** used to generate the experimental results are **not included** in this repository, but they are **available upon request**.  
+If you need the code or instructions for running the algorithms, please feel free to contact us:
+
+- **Seungyeop Lee** — sylee1509@postech.ac.kr  
+- **Sangil Han** — hansangil01@postech.ac.kr  
+- **Byung-In Kim** — bkim@postech.ac.kr
